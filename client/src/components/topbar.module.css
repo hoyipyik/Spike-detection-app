@@ -1,0 +1,11 @@
+.topbar {
+  width: 100%;
+  /* display: flex; */
+  /* padding-left: 3rem; */
+  /* margin: 1rem 0; */
+  border-bottom: #e2e8f0 1.5px solid;
+  /* align-items: center;
+  justify-content: right;
+  justify-items: right; */
+  padding: 0.4rem 3rem;
+}

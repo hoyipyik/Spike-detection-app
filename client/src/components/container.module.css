@@ -1,0 +1,40 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  height: 95vh;
+}
+
+.imageContainer {
+  padding: 1rem 2rem;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.cover {
+  height: 65vh;
+  width: 45vw;
+  border: 1px solid rgb(158, 158, 158);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  justify-items: center;
+  align-content: center;
+}
+
+.buttonContainer {
+    width: 100%;
+    display: flex;
+    /* background-color: aqua; */
+    padding: 0 2.8rem;
+}
+
+img {
+  height: 65vh;
+  width: 45vw;
+  object-fit: cover;
+  object-position: center;
+}
